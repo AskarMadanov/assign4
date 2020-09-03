@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  label: worker
+spec:
+  container:
+    name: worker
+    image: mshaibek/voting-app_worker:1.0
+~                                         
